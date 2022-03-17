@@ -1,0 +1,25 @@
+﻿<Page x:Class="PageValidacao"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="235" d:DesignWidth="302"
+      Title="PageValidacao">
+    <Grid Name="Grid1">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="/CloneMaker;component/Dolly_Splash.png" />
+        
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            
+
+                <Label Content="Informe a senha:" HorizontalAlignment="Center" FontSize="15" FontStyle="Normal" FontWeight="Medium" />
+                <!--<TextBox Name="TxtSenha" Text="" HorizontalAlignment="Stretch"  />-->
+                <PasswordBox Name="PwdSenha" Password="" HorizontalAlignment="Stretch" PasswordChar="*" />
+                <Button Name="BtnSenha" Content="Entrar" HorizontalAlignment="Stretch" />
+                <TextBlock Name="BlkErro" Visibility="Hidden" Foreground="Red" >Senha incorreta! Tente novamente.</TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

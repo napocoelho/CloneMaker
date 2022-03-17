@@ -1,0 +1,9 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid Name="Grid1">
+        <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="145,126,0,0" Name="Button1" VerticalAlignment="Top" Width="75" />
+        <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="363,241,0,0" Name="Button2" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</Window>
